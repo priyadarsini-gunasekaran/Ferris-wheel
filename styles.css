@@ -91,8 +91,10 @@
     }
     50% {
       transform: rotate(10deg);
+      background-color: green;
     }
     100% {
-      transform: rotate(-360deg);
+      transform: rotate(0deg);
+      background-color: yellow;
     }
   }
